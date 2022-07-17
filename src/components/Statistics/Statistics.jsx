@@ -6,15 +6,15 @@ function Statistics({ good, neutral, bad, total, positivePercentage }) {
         <ul className={styles.list}>
             <li className={styles.item}>
                 Good:
-                <span className={styles.label}style={{color: '#37eb34'}}>{good}</span>
+                <span className={styles.label}style={{color: '#b3b3b3'}}>{good}</span>
             </li>
             <li className={styles.item}>
                 Neutral:
-                <span className={styles.label}style={{color: '#ebe534'}}>{neutral}</span>
+                <span className={styles.label}style={{color: '#858585'}}>{neutral}</span>
             </li>
             <li className={styles.item}>
                 Bad:
-                <span className={styles.label}style={{color: '#eb3434'}}>{bad}</span>
+                <span className={styles.label}style={{color: '#4a4a4a'}}>{bad}</span>
             </li>
             <li className={styles.item}>
                 Total:
